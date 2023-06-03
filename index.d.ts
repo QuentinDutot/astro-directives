@@ -5,3 +5,5 @@ declare module "astro" {
     "client:scroll"?: boolean;
   }
 }
+
+export {};

@@ -25,6 +25,8 @@ export default defineConfig({
 });
 ```
 
+The experimental.customClientDirectives flag may not be needed in the future.
+
 **Use a directive**:
 
 ```jsx
@@ -33,8 +35,8 @@ export default defineConfig({
 
 ## Directives
 
-| Attribute                      | Load the javascript and hydrate when ...                             |
+| Attribute                      | Load the javascript and hydrate on ...                               |
 | ------------------------------ | -------------------------------------------------------------------- |
-| client:click                   | element is clicked                                                   |
-| client:hover                   | element is hovered                                                   |
-| client:scroll                  | window is scrolled                                                   |
+| client:click                   | element click event                                                  |
+| client:hover                   | element mouseover event                                              |
+| client:scroll                  | window scroll event                                                  |
