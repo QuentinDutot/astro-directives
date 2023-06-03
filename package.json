@@ -1,6 +1,6 @@
 {
   "name": "astro-directives",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "An astro integration for more client directives.",
   "homepage": "https://github.com/QuentinDutot/astro-directives#readme",

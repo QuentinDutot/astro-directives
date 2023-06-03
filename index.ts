@@ -1,6 +1,6 @@
 import type { AstroIntegration } from "astro";
 
-const directives: AstroIntegration = {
+const directives = (): AstroIntegration => ({
   name: "astro-directives",
   hooks: {
     "astro:config:setup": ({ addClientDirective }) => {
@@ -18,6 +18,6 @@ const directives: AstroIntegration = {
       });
     },
   },
-};
+});
 
 export default directives;
