@@ -1,0 +1,10 @@
+{
+  "name": "astro-directives",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "main": "./index.ts",
+  "peerDependencies": {
+    "astro": "^2.5.0"
+  }
+}
