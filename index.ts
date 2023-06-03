@@ -6,15 +6,15 @@ const directives = (): AstroIntegration => ({
     "astro:config:setup": ({ addClientDirective }) => {
       addClientDirective({
         name: "click",
-        entrypoint: "directives/click.ts",
+        entrypoint: "astro-directives/directives/click.ts",
       });
       addClientDirective({
         name: "hover",
-        entrypoint: "directives/hover.ts",
+        entrypoint: "astro-directives/directives/hover.ts",
       });
       addClientDirective({
         name: "scroll",
-        entrypoint: "directives/scroll.ts",
+        entrypoint: "astro-directives/directives/scroll.ts",
       });
     },
   },
