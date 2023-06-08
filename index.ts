@@ -1,5 +1,13 @@
 import type { AstroIntegration } from "astro";
 
+declare module "astro" {
+  interface AstroClientDirectives {
+    "client:click"?: boolean;
+    "client:hover"?: boolean;
+    "client:scroll"?: boolean;
+  }
+}
+
 const directives = (): AstroIntegration => ({
   name: "astro-directives",
   hooks: {
